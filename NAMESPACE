@@ -2,12 +2,8 @@
 
 export("%>%")
 export(ny_archive)
-export(ny_book_date_list)
-export(ny_book_history)
 export(ny_book_list)
-export(ny_book_names)
 export(ny_book_overview)
-export(ny_book_reviews)
 export(ny_geo)
 export(ny_movie_reviewers)
 export(ny_movie_reviews)

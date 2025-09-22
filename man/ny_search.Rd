@@ -10,7 +10,6 @@ ny_search(
   until = NULL,
   pages = 1,
   sort = c("newest", "oldest"),
-  fl = NULL,
   fq = NULL
 )
 }
@@ -22,8 +21,6 @@ ny_search(
 \item{pages}{Number of pages of results to return. Set to \code{Inf} to retrieve all pages (up to 100).}
 
 \item{sort}{Sort order \code{newest}, \code{oldest}.}
-
-\item{fl}{List of fields to return.}
 
 \item{fq}{Query filter.}
 }

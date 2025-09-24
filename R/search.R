@@ -57,11 +57,12 @@ ny_search <- function(q, since = NULL, until = NULL, pages = 1, sort = c("newest
       )
     } else {
       if (!pb$finished) pb$tick()
-      Sys.sleep(13)
     }
     
     if(p >= pages)
       break
+
+    Sys.sleep(13)
   }
   pb$terminate()
 
